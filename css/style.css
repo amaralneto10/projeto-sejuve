@@ -508,7 +508,9 @@ footer hr {
 
     /* header */
     .titulo {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        padding-top: 2.5rem;
+        text-align: center;
     }
 
     .booking {
