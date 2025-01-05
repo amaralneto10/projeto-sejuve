@@ -48,9 +48,9 @@ function clickMenu() {
     const burger = window.document.querySelector('#burger');
     const burgerList = window.document.querySelector('#burgerList');
 
-    if (burger.style.display == 'block') {
-        burgerList.style.display = 'none'
+    if (burgerList.style.display == 'none') {
+        burgerList.style.display = 'block'
     } else {
-        burger.style.display = 'none'
-    }
+        burgerList.style.display = 'none'
+    } 
 }

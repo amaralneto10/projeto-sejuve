@@ -83,6 +83,7 @@ nav {
     transition: .3s;
 }
 
+
 .menu a:hover, .drop-content a:hover {
     color: var(--cor-destaque);
 }
