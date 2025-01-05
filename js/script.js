@@ -42,3 +42,15 @@ document.querySelector('.proximo').addEventListener('click', proximo);
 
 // Mostrar o primeiro funcionário ao carregar a página //
 mostrarSlide(funcionarioAtual)
+
+// Clique botão burger para celular //
+function clickMenu() {
+    const burger = window.document.querySelector('#burger');
+    const burgerList = window.document.querySelector('#burgerList');
+
+    if (burger = burger.style.display == 'block') {
+        burgerList.style.display = 'none'
+    } else {
+        burger.style.display = 'none'
+    }
+}
