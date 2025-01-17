@@ -16,9 +16,12 @@
     /* Paleta de cores */
     --cor-principal: #654080;
     --cor-destaque: #FFA101;
-    --cor-principal-alpha: #65408042;
+    --cor-principal-alpha: #ffa20171;
+    /* --cor-principal-alpha: #65408042; */
     --cor-gradiente-01: #ffe7c2;
-    --cor-gradiente-02: #bdacff;
+    --cor-gradiente-02: #fdd286;
+    /* --cor-gradiente-01: #ffe7c2;
+    --cor-gradiente-02: #bdacff; */
     --cor-01: #f9f9f9;
     --cor-02: #b8c0c7;
     --cor-03: #767f86;
@@ -68,7 +71,7 @@ nav {
 }
 
 .navbar-solida {
-    background: var(--cor-principal);
+    background: var(--cor-destaque);
 }
 
 .logo {
@@ -94,7 +97,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(../imagem/istockphoto-935337702-612x612.jpg) no-repeat;
+    background: url(../imagem/IMPORTANCIA\ DO\ ESPORTE\ PARA\ SAUDE-7DkFiJ20qT.jpeg) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 
@@ -490,7 +493,7 @@ footer hr {
     nav {
         padding: 0;
         padding-left: 1rem;
-        background-color: var(--cor-principal); 
+        background-color: var(--cor-destaque); 
         /* background: red; */
     }
 
